@@ -1,0 +1,23 @@
+[user]
+	name = Lukácsi Sándor
+	email = sandor.lukacsi@gyoma.org
+[diff]
+  tool = nvimdiff
+[difftool "nvimdiff"]
+  cmd = nvim -d "$LOCAL" "$REMOTE"
+[core]
+  editor = nvim
+[difftool]
+	prompt = true
+	autocrlf = input
+	ignorecase = true
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	fa = log --all --decorate --oneline --graph
+[pull]
+	rebase = true
+[rebase]
+	autosquast = true
+
