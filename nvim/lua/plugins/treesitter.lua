@@ -12,8 +12,11 @@ return {
         "vimdoc",
         "java",
         "html",
-        "yaml"
-      }, 
+        "yaml",
+        "python",
+        "markdown",
+        "rust"
+      },
       highlight = { enable = true },
       indent = { enable = true},
     })
