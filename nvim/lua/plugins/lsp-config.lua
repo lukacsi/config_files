@@ -15,9 +15,9 @@ return {
         "ltex",
         "markdown_oxide",
         "pylsp",
-        "yamlls",
-        "html",
-        "java_language_server",
+        --"yamlls",
+        --"html",
+        --"java_language_server",
         "rust_analyzer"
         }
       }
@@ -32,9 +32,9 @@ return {
       lspconfig.ltex.setup({})
       lspconfig.markdown_oxide.setup({})
       lspconfig.pylsp.setup({})
-      lspconfig.yamlls.setup({})
-      lspconfig.html.setup({})
-      lspconfig.java_language_server.setup({})
+      --lspconfig.yamlls.setup({})
+      --lspconfig.html.setup({})
+      --lspconfig.java_language_server.setup({})
       lspconfig.rust_analyzer.setup({})
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
