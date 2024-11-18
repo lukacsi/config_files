@@ -53,7 +53,7 @@ return {
     },
     config = function()
       local cmp = require("cmp")
-      local cmp_enabled = true
+      local cmp_enabled = false
       function ToggleCmp()
         cmp_enabled = not cmp_enabled
         if cmp_enabled then
