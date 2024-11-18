@@ -13,7 +13,7 @@ return {
         "lua_ls",
         "clangd",
         "ltex",
-        "markdown_oxide",
+        --"markdown_oxide",
         "pylsp",
         --"yamlls",
         --"html",
@@ -30,7 +30,7 @@ return {
       lspconfig.lua_ls.setup({})
       lspconfig.clangd.setup({})
       lspconfig.ltex.setup({})
-      lspconfig.markdown_oxide.setup({})
+      --lspconfig.markdown_oxide.setup({})
       lspconfig.pylsp.setup({})
       --lspconfig.yamlls.setup({})
       --lspconfig.html.setup({})
@@ -93,7 +93,7 @@ return {
       require("lspconfig")["lua_ls"].setup { capabilities = capabilities }
       require("lspconfig")["clangd"].setup { capabilities = capabilities }
       require("lspconfig")["ltex"].setup { capabilities = capabilities }
-      require("lspconfig")["markdown_oxide"].setup { capabilities = capabilities }
+      --require("lspconfig")["markdown_oxide"].setup { capabilities = capabilities }
       require("lspconfig")["pylsp"].setup { capabilities = capabilities }
       require("lspconfig")["rust_analyzer"].setup { capabilities = capabilities }
       vim.api.nvim_set_keymap("n", "<leader>tc", ":lua ToggleCmp()<CR>", { noremap = true, silent = true })

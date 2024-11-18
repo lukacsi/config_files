@@ -14,7 +14,7 @@ return {
         "html",
         "yaml",
         "python",
-        "markdown",
+        --"markdown",
         "rust"
       },
       highlight = { enable = true },
