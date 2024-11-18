@@ -1,6 +1,6 @@
 [user]
-	name = Lukácsi Sándor
-	email = sandor.lukacsi@gyoma.org
+	name = lukacsi
+	email = lsb09100@gmail.com
 [diff]
   tool = nvimdiff
 [difftool "nvimdiff"]
